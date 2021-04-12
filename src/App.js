@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { Background } from "./components";
 
 const App = () => {
   return (
     <Application>
-      <h1>Let's Build Something Amazing</h1>
+      <Background />
     </Application>
   );
 }
