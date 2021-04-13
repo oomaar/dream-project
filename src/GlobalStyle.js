@@ -15,4 +15,14 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         color: whitesmoke;
     }
+
+    @font-face {
+        font-family: "Agustina Regular";
+        font-style: normal;
+        font-weight: normal;
+        src: local("Agustina Regular"),
+        url("/fonts/Agustina.woff") format("woff");
+        font-display: swap;
+    }
 `;
+
