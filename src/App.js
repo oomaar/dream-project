@@ -1,9 +1,10 @@
 import styled from "styled-components";
-import { Background } from "./components";
+import { Background, Navbar } from "./components";
 
 const App = () => {
   return (
     <Application>
+      <Navbar />
       <Background />
     </Application>
   );
@@ -11,8 +12,4 @@ const App = () => {
 
 export default App;
 
-const Application = styled.div`
-  h1 {
-    font-size: 120px;
-  }
-`;
+const Application = styled.div``;
