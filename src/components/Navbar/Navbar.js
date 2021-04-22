@@ -9,8 +9,6 @@ import {
     Item,
     Link,
     NavBtn,
-    Line,
-    ResponsiveNav,
 } from "./styledNavbar";
 
 const Navbar = () => {
@@ -23,30 +21,8 @@ const Navbar = () => {
                 <MyName>Omar Hassan</MyName>
                 <Span>/&gt;</Span>
             </Signature>
-            <NavBtn onClick={() => setToggleShow(state => !state)}>
-                <Line></Line>
-                <Line></Line>
-                {toggleShow && (
-                    <ResponsiveNav>
-                        <Items className="responsive__list">
-                            <Item className="responsive__item">
-                                <Link>Home</Link>
-                            </Item>
-                            <Item className="responsive__item">
-                                <Link>About</Link>
-                            </Item>
-                            <Item className="responsive__item">
-                                <Link>Education</Link>
-                            </Item>
-                            <Item className="responsive__item">
-                                <Link>Projects</Link>
-                            </Item>
-                            <Item className="responsive__item">
-                                <Link>Contact</Link>
-                            </Item>
-                        </Items>
-                    </ResponsiveNav>
-                )}
+            <NavBtn>
+                <i class="fas fa-bars"></i>
             </NavBtn>
             <Container>
                 <Items>
