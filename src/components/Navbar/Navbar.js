@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Sidebar } from "..";
 import {
     Nav,
     Container,
@@ -21,9 +22,10 @@ const Navbar = () => {
                 <MyName>Omar Hassan</MyName>
                 <Span>/&gt;</Span>
             </Signature>
-            <NavBtn>
+            <NavBtn onClick={() => setToggleShow(state => !state)}>
                 <i class="fas fa-bars"></i>
             </NavBtn>
+            <Sidebar toggleShow={toggleShow} setToggleShow={setToggleShow} />
             <Container>
                 <Items>
                     <Item>
