@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Background, Navbar, SocialLinks } from "./components";
+import { Background, Home, Navbar, SocialLinks } from "./components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar />
       <Background />
       <SocialLinks />
+      <Home />
     </Application>
   );
 }
