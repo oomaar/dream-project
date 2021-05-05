@@ -53,6 +53,7 @@ export const SocialContainer = styled.div`
 
     &:hover {
         transform: scale(1.3);
+        color: #ffd369;
     }
 
     &:hover ${Text} {

@@ -61,6 +61,7 @@ export const MenuItem = styled.li`
         :hover{
             transition: all ease 0.2s;
             transform: scale(1.3);
+            color: #ffd369;
         }
 
         @media(max-width: 1100px) {
