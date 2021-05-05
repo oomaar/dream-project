@@ -6,6 +6,10 @@ export const Container = styled.div`
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
+
+    @media (max-width: 1100px) {
+        align-items: flex-end;
+    } 
 `;
 
 export const SubContainer = styled.div`
@@ -13,6 +17,10 @@ export const SubContainer = styled.div`
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 1100px) {
+        margin-bottom: 100px;
+    } 
 `;
 
 export const Text = styled.p`
