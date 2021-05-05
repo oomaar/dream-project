@@ -131,10 +131,12 @@ export const MenuBtn = styled.input`
         }
         :checked ~ ${MenuIcon} ${NavIcon}::before {
             transform: rotate(-45deg);
+            background-color: #FF1414;
             top: 0;
         }
         :checked ~ ${MenuIcon} ${NavIcon}::after {
             transform: rotate(45deg);
+            background-color: #FF1414;
             top: 0;
         }
     }
